@@ -1,0 +1,11 @@
+<system x="0" y="0" z="0">
+	<element id="0" name="sun" class="starts" lookup="sun"/>
+	<element id="1" name="Mercury" class="planets" lookup="mercury"/>
+	<element id="2" name="Venus" class="planets" lookup="venus"/>
+	<element id="3" name="Earth" class="planets" lookup="earth"/>
+	<element id="4" name="Mars" class="planets" lookup="mars"/>
+	<!--<element id="5" name="Jupiter" class="planets" lookup="jupiter"/>
+	<element id="6" name="Saturn" class="planets" lookup="saturn"/>
+	<element id="7" name="Uranus" class="planets" lookup="uranus"/>
+	<element id="8" name="Neptune" class="planets" lookup="neptune"/>-->
+</system>

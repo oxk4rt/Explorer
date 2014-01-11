@@ -1,0 +1,21 @@
+<planet>
+	<data type="pvector">
+		<x value="965"/>
+		<y value="200"/>
+		<z value="0"/>
+	</data>
+	<data type="grade" value="180"/>
+	<data type="color">
+		<r value="9"/>
+		<g value="180"/>
+		<b value="230"/>
+		<a value="255"/>
+	</data>
+	<data type="diameter" value="29"/> 
+	<data type="radiusorbit" value="1165"/> 
+	<data type="module" value="-16.7"/>
+	<data type="mass" value="1.989e+30"/>
+	<data type="inclination" value="28.31"/>
+	<data type="inclinationorbit" value="10.77"/>
+	<data type="speed" value="618.02"/>
+</planet>

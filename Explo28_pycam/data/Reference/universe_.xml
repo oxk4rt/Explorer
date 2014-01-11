@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<!-- http://www.infolaso.com/tamano-de-los-planetas.html
+
+NECESARIO DEFINIR ESCALAS Y UNIDADES DE MEDIDA
+
+XML's descomposition
+<universe>
+	<time value="xxx"/>
+	<galaxy id="0" name="xxxx_xxx" src="/galaxys/xxxxxxx.xml"/>
+	// More galaxys
+</universe>
+<galaxy>
+	<system id="0" name="xxxxx" src="/systems/xxxxx.xml"/>
+	// More systems
+</galaxy>
+<system>
+	<element id="0" name="xxxx" mode="start/celestialbody/trojan">
+		<data type="xxxx"/>
+		// More datas
+
+		// Optional for start
+		<efect value="true/false"> 
+			// If value == true
+			<sunspot />
+			<radiation />
+			<luminosity />
+		</efect>
+
+		// Optional for celestialbody
+		<efect value="true/false"> 
+			// If value == true
+			<atmosphere />
+			<ring />
+			<moons />
+		</efect>
+
+		// Optional for celestialbody
+		<efect value="true/false"> 
+			// If value == true
+			<luminosity />
+		</efect>
+
+	<element>
+			
+
+-->
+<universe>
+	<TIME value="000000000000"/>
+	<galaxy id="0" name="Milky Way" color="#0A1B2A">
+		<system id="0" name="Solar System">
+			<element id="0" name="sun" mode="start">
+				<data type="pvector">
+					<x value="0"/>
+					<y value="0"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="0"/>
+				<data type="color">
+					<r value="239"/>
+					<g value="130"/>
+					<b value="40"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="260"/> 
+				<data type="radiusorbit" value="10"/>
+				<data type="module" value="-0.84"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="0"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="1" name="Mercury" mode="celestialbody">
+				<data type="pvector">
+					<x value="305"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="0"/>
+				<data type="color">
+					<r value="109"/>
+					<g value="20"/>
+					<b value="20"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="10"/> 
+				<data type="radiusorbit" value="305"/>
+				<data type="module" value="-1"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="0"/>
+				<data type="inclinationorbit" value="-5.1"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="2" name="Venus" mode="celestialbody">
+				<data type="pvector">
+					<x value="355"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="10"/>
+				<data type="color">
+					<r value="19"/>
+					<g value="140"/>
+					<b value="220"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="14"/> 
+				<data type="radiusorbit" value="355"/>
+				<data type="module" value="2"/> 
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="177.36"/>
+				<data type="inclinationorbit" value="-17.39"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="3" name="Earth" mode="celestialbody">
+				<data type="pvector">
+					<x value="425"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="20"/>
+				<data type="color">
+					<r value="120"/>
+					<g value="140"/>
+					<b value="250"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="18"/> 
+				<data type="radiusorbit" value="425"/>
+				<data type="module" value="-3"/> 
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="23.45"/>
+				<data type="inclinationorbit" value="0"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="4" name="Mars" mode="celestialbody">
+				<data type="pvector">
+					<x value="480"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="30"/>
+				<data type="color">
+					<r value="179"/>
+					<g value="70"/>
+					<b value="22"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="13"/> 
+				<data type="radiusorbit" value="480"/>
+				<data type="module" value="-3.6"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="25.19"/>
+				<data type="inclinationorbit" value="11.85"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="5" name="Jupiter" mode="celestialbody">
+				<data type="pvector">
+					<x value="615"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="140"/>
+				<data type="color">
+					<r value="200"/>
+					<g value="80"/>
+					<b value="60"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="90"/> 
+				<data type="radiusorbit" value="715"/> 
+				<data type="module" value="-10"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="3.13"/>
+				<data type="inclinationorbit" value="10.31"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="6" name="Saturn" mode="celestialbody">
+				<data type="pvector">
+					<x value="750"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="50"/>
+				<data type="color">
+					<r value="219"/>
+					<g value="180"/>
+					<b value="80"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="60"/> 
+				<data type="radiusorbit" value="880"/> 
+				<data type="module" value="-12"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="25.33"/>
+				<data type="inclinationorbit" value="20.49"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="7" name="Uranus" mode="celestialbody">
+				<data type="pvector">
+					<x value="900"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="160"/>
+				<data type="color">
+					<r value="29"/>
+					<g value="170"/>
+					<b value="225"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="32"/>
+				<data type="radiusorbit" value="1100"/>
+				<data type="module" value="-16"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="97.86"/>
+				<data type="inclinationorbit" value="9.77"/>
+				<data type="speed" value="618.02"/>
+			</element>
+			<element id="8" name="Neptune" mode="celestialbody">
+				<data type="pvector">
+					<x value="965"/>
+					<y value="200"/>
+					<z value="0"/>
+				</data>
+				<data type="grade" value="180"/>
+				<data type="color">
+					<r value="9"/>
+					<g value="180"/>
+					<b value="230"/>
+					<a value="255"/>
+				</data>
+				<data type="diameter" value="29"/> 
+				<data type="radiusorbit" value="1165"/> 
+				<data type="module" value="-16.7"/>
+				<data type="mass" value="1.989e+30"/>
+				<data type="inclination" value="28.31"/>
+				<data type="inclinationorbit" value="10.77"/>
+				<data type="speed" value="618.02"/>
+			</element>
+		</system>
+	 </galaxy>
+</universe>

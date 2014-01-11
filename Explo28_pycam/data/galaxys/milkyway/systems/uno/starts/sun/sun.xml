@@ -1,0 +1,20 @@
+<start>
+	<data type="pvector">
+		<x value="0"/>
+		<y value="0"/>
+		<z value="0"/>
+	</data>
+	<data type="grade" value="0"/>
+	<data type="color">
+		<r value="239"/>
+		<g value="139"/>
+		<b value="49"/>
+		<a value="250"/>
+	</data>
+	<data type="diameter" value="220"/> 
+	<data type="radiusorbit" value="0"/>
+	<data type="module" value="-0.84"/>
+	<data type="mass" value="1.989e+30"/>
+	<data type="inclination" value="0"/>
+	<data type="speed" value="618.02"/>
+</start>

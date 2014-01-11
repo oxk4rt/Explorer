@@ -1,0 +1,5 @@
+<galaxy>
+	<system id="0" name="Solar System" lookup="solarsystem" x="0" y="0" z="0"/>
+	<system id="0" name="System 1" lookup="uno" x="1000" y="1000" z="0"/>
+	<system id="0" name="System 2" lookup="dos" x="1000" y="0" z="1000"/>
+</galaxy>

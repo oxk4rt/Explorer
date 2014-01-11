@@ -1,0 +1,4 @@
+<universe>
+	<TIME value="000000000000"/>
+	<galaxy id="0" name="Milky Way" lookup="milkyway"/>
+</universe>

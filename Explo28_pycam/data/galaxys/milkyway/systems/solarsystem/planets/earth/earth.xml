@@ -1,0 +1,25 @@
+<planet>
+	<data type="pvector">
+		<x value="425"/>
+		<y value="200"/>
+		<z value="0"/>
+	</data>
+	<data type="grade" value="20"/>
+	<data type="color">
+		<r value="120"/>
+		<g value="140"/>
+		<b value="250"/>
+		<a value="255"/>
+	</data>
+	<data type="diameter" value="18"/> 
+	<data type="radiusorbit" value="390"/>
+	<data type="module" value="-3"/> 
+	<data type="mass" value="1.989e+30"/>
+	<data type="inclination" value="23.45"/>
+	<data type="inclinationorbit" value="0"/>
+	<data type="speed" value="618.02"/>
+	<data type="orbitalelements">
+		<element class="moons" name="Moon" file="moon"/>
+		<element class="moons" name="MoonA" file="moon2"/>
+	</data>
+</planet>

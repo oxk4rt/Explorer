@@ -1,0 +1,21 @@
+<moon>
+	<data type="pvector">
+		<x value="425"/>
+		<y value="200"/>
+		<z value="0"/>
+	</data>
+	<data type="grade" value="0"/>
+	<data type="color">
+		<r value="220"/>
+		<g value="220"/>
+		<b value="250"/>
+		<a value="255"/>
+	</data>
+	<data type="diameter" value="3"/> 
+	<data type="radiusorbit" value="25"/>
+	<data type="module" value="-0.3"/> 
+	<data type="mass" value="1.989e+30"/>
+	<data type="inclination" value="-10"/>
+	<data type="inclinationorbit" value="30"/>
+	<data type="speed" value="618.02"/>
+</moon>

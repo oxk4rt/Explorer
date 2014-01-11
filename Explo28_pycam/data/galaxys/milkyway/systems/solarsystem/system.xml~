@@ -1,0 +1,11 @@
+<system>
+	<element id="0" name="sun" mode="start" src="sun.xml"/>
+	<element id="1" name="Mercury" mode="planet" src="mercury.xml">
+	<element id="2" name="Venus" mode="planet" src="venus.xml"/>
+	<element id="3" name="Earth" mode="planet" src="earth.xml">
+	<element id="4" name="Mars" mode="planet" src="mars.xml">
+	<element id="5" name="Jupiter" mode="planet" src="jupiter.xml">
+	<element id="6" name="Saturn" mode="planet" src="saturn.xml">
+	<element id="7" name="Uranus" mode="planet" src="uranus.xml">
+	<element id="8" name="Neptune" mode="planet" src="neptune.xml">
+</system>
